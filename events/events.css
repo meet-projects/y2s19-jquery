@@ -1,0 +1,17 @@
+#moveButton {
+    position: fixed;
+    /* START CENTERING ON PAGE TRICK */
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    /* END CENTERING TRICK */
+    width: 120px;
+    height: 50px;
+}
+
+#message {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    font-size: 30pt;
+}

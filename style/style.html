@@ -1,0 +1,23 @@
+<html>
+
+<head>
+    <title>JQuery Style Lab</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <p>Size (0 - 400px):</p>
+    <input type="range" min="0" max="400" value="100" class="slider" id="sizeSlider" oninput="updateSize(this.value)">
+    <p>X (0 - 400px):</p>
+    <input type="range" min="0" max="400" value="0" class="slider" id="xSlider" oninput="updateLeftPosition(this.value)">
+    <p>Y (0 - 400px):</p>
+    <input type="range" min="0" max="400" value="0" class="slider" id="ySlider" oninput="updateTopPosition(this.value)">
+
+    <img src="./shira.png" id="logo" width="100px">
+
+    <!-- PLEASE DO NOT ADD ANY JAVASCRIPT CODE HERE! :) -->
+    <script src="jquery.js"></script>
+    <script src="style.js"></script>
+</body>
+
+</html>
