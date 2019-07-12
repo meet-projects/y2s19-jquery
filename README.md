@@ -2,19 +2,17 @@
 
 ## 0 &ensp; Getting Started
 
-1. **Fork** this repository by clicking "Fork" on this page: `https://github.com/meet-projects/y2s18-jquery-1`.
-
-<img src="images/fork.png">
+1. **Fork** this repository by clicking "Fork" on this page: `https://github.com/meet-projects/y2s19-jquery`.
 
 2. In **Terminal**, change directory onto your Desktop: 
 `cd ~/Desktop`
-3. **Clone** the repository `y2s18-jquery-1` onto your Desktop, replacing `<username>` with your Github username in the following command:
-    - `$ git clone https://github.com/<username>/y2s18-jquery-1`.
+3. **Clone** the repository `y2s19-jquery` onto your Desktop, replacing `<username>` with your Github username in the following command:
+    - `$ git clone https://github.com/<username>/y2s19-jquery`.
 
 ## 1 &ensp; Labs
 
 ### 1.1 &ensp; Editing DOM Styles (`./style`)
-0. Make sure you are in the **`~/Desktop/y2s18-jquery-1`** directory. Open `style/style.html` in Sublime Text (or any other text editor). 
+0. Make sure you are in the **`~/Desktop/y2s19-jquery`** directory. Open `style/style.html` in Sublime Text (or any other text editor). 
 1. Find out how to use CSS to rotate elements with [this W3schools article](https://www.w3schools.com/cssref/css3_pr_transform.asp).
 2. Open `style.js` in Sublime Text. **Use JQuery** to change the style of the MEET logo:
     - Finish the function `updateSize`. You should set the width of the the MEET logo to equal `newSize` in pixels.
@@ -24,7 +22,7 @@
 <img src="images/style.gif">
 
 ### 1.2 &ensp; JQuery Events (`./events`)
-0. Make sure you are in the **`~/Desktop/y2s18-jquery-1`** directory. Open `events/events.html` in Sublime Text (or any other text editor). 
+0. Make sure you are in the **`~/Desktop/y2s19-jquery`** directory. Open `events/events.html` in Sublime Text (or any other text editor). 
 1. Open `events.html` in Sublime Text.
     - Notice that there is a button with an id of `moveButton` on the page.
     - Notice that there is a paragraph with an id of `message` on the page.
@@ -36,7 +34,7 @@
 <img src="images/events.gif">
 
 ### 1.3 &ensp; Editing DOM Content (`./content`)
-0. Make sure you are in the **`~/Desktop/y2s18-jquery-1`** directory. Open `content/content.html` in Sublime Text (or any other text editor). 
+0. Make sure you are in the **`~/Desktop/y2s19-jquery`** directory. Open `content/content.html` in Sublime Text (or any other text editor). 
 1. Open `content.js` in Sublime Text.
 2. Add code to `content.js` so that every time the "Increment" button is pressed, the counter increases by `1`.
 3. Add code to `content.js` so that when the "Reset" button is pressed, the counter is reset back to `0`.
@@ -45,7 +43,7 @@
 <img src="images/counter.gif">
 
 ### 1.4 &ensp; Editing DOM Classes (`./classes`)
-0. Make sure you are in the **`~/Desktop/y2s18-jquery-1`** directory. Open `classes/classes.html` in Sublime Text (or any other text editor). 
+0. Make sure you are in the **`~/Desktop/y2s19-jquery`** directory. Open `classes/classes.html` in Sublime Text (or any other text editor). 
 1. Using Sublime Text, **add three buttons to `classes.html`**.
     - The first button should have id of `bigButton` and with `BIG Button` written on it.
     - The second button should have id of `hideButton` and with `HIDE Button` written on it.
